@@ -1,0 +1,35 @@
+##fileformat=VCFv4.2
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total read depth">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Allele frequency">
+##INFO=<ID=MQ,Number=1,Type=Float,Description="Mapping quality">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Sample read depth">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype quality">
+##FILTER=<ID=LowQual,Description="Low quality variant">
+##FILTER=<ID=LowDP,Description="Low depth variant">
+##contig=<ID=chr1,length=221644825>
+##contig=<ID=chr2,length=79885207>
+##contig=<ID=chr3,length=56713773>
+##contig=<ID=chr4,length=249058447>
+##contig=<ID=chr5,length=123827621>
+##contig=<ID=chr6,length=115737657>
+##contig=<ID=chr7,length=109917677>
+##contig=<ID=chr8,length=87456926>
+##contig=<ID=chr9,length=247694986>
+##contig=<ID=chr10,length=77513338>
+##contig=<ID=chr11,length=231650134>
+##contig=<ID=chr12,length=248821483>
+##contig=<ID=chr13,length=196395715>
+##contig=<ID=chr14,length=73337464>
+##contig=<ID=chr15,length=208509126>
+##contig=<ID=chr16,length=163258777>
+##contig=<ID=chr17,length=58531599>
+##contig=<ID=chr18,length=57998630>
+##contig=<ID=chr19,length=75151125>
+##contig=<ID=chr20,length=108690184>
+##contig=<ID=chr21,length=112454433>
+##contig=<ID=chr22,length=185655277>
+##contig=<ID=chrX,length=211603172>
+##contig=<ID=chrY,length=57123195>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE_1	SAMPLE_2	SAMPLE_3
+chr18	53375075	rs9242600	T	G	2785.5	PASS	DP=393;AF=0.8078;MQ=47.9	GT:DP:GQ	1/1:72:20	0/1:196:44	0/0:24:49
